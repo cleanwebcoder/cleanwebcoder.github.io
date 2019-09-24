@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
-</body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <form id="ourform" action="demo.php" method="post">
+      <img src="user.png" height="100" id="user">
+      <h3 id="cta">Get Started</h3>
+      <table>
+        <tr>
+          <td>Username:</td>
+        </tr>
+        <tr>
+          <td><input type="text" placeholder="Enter Username" class="textholders" name="input1"/></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+        </tr>
+        <tr>
+          <td><input type="password" placeholder="Enter Password" class="textholders"/></td>
+        </tr>
+      </table>
+      <br/>
+      <input type="submit" id="redlogin" value="Submit"/>
+      <br/><br/>
+      <a href="" class="links">Lost your password?</a>
+      <br/>
+      <a href="" class="links">Don't have an account?</a>
+    </form>
+  </body>
 </html>
